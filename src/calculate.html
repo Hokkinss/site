@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="calculate.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header>
+    <div class="header">
+        <button class="burger"><h4>☰</h4></button>
+        <h3>Калькулятор</h3>
+        <h2 class="service-name">Стеклокрош</h2>
+    </div>
+</header>
+<body>
+    <div class="main">
+        <ul class="names">
+            <li>Название</li>
+            <li>Материалы</li>
+            <li>Компоненты</li>
+            <li>Инструменты</li>
+            <li>Тип затрат</li>
+        </ul>
+        <ul class="list">
+            <div class="name">
+                <input type="text" placeholder="Название">
+            </div>
+            <div class="materials">
+                <select name="material" id="material">
+                    <option disabled selected>Выберите значение</option>
+                </select>
+            </div>
+            <div class="components">
+                <select name="component" id="component">
+                    <option disabled selected>Выберите</option>
+                </select>
+                <select name="sizes" id="sizes">
+                    <option disabled selected>Выберите</option>
+                </select>
+            </div>
+            <div class="instruments">
+                <select name="instrument" id="instrument">
+                    <option disabled selected>Выберите значение</option>
+                </select>
+            </div>
+            <div class="money">
+                <select name="spent" id="spent">
+                    <option disabled selected>Выберите</option>
+                </select>
+            </div>
+        </ul>
+    </div>
+    <div class="btn">
+        <button class="cost">Рассчитать себестоимость</button>
+    </div>
+    
+<script src="main.js"></script>
+</body>
+</html>

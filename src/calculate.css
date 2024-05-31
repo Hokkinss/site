@@ -1,0 +1,179 @@
+.header { 
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #175CAE;
+    align-items: center;
+}
+
+.header h2 { 
+    color: #175CAE;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+}
+
+.header h3 { 
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    color: #0E3C73;
+    background-image: url(images/calculator.svg);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-position: left;
+}
+
+.header h4 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    color: #0E3C73;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+}
+.service-name { 
+    margin-right: 50px;
+    font-weight: 300;
+    color: #175CAE;
+}
+
+.burger { 
+    background: none;
+    border: none;
+    color: #175CAE;
+}
+
+.main-btns {
+    margin-top: 52px;
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.main { 
+    margin: 0;
+    justify-content: space-between;
+    display: flex;
+}
+
+li { 
+    margin-bottom: 55px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-align: left;
+
+    list-style-type: none;
+}
+
+.list { 
+    margin: 0;
+    margin-top: 50px;
+    margin-right: 355px;
+}
+
+.materials, .name, .instruments, .money, input { 
+    height: 42px;
+    width: 434px; 
+}
+
+.names { 
+    margin: 0;
+    margin-left: 315px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.select { 
+    display: flex;
+}
+
+.name,.money,.components,.materials,.instruments { 
+    margin-bottom: 36px;
+    display: flex;
+}
+
+.name input { 
+    background-color: #DFE8F8;
+    border: none;
+    border-radius: 10px;
+    padding-left: 19px;
+}
+
+.materials select,
+.instruments select,
+.money select
+{ 
+    padding-left: 18px;
+    width: 434px;
+    height: 44px;
+    border: none;
+    background-color: #E0E8F8;
+    border-radius: 10px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: left;
+    color: #175CAE;
+
+}
+
+.components select { 
+    padding-left: 18px;
+    background-color: #E0E8F8;
+    border: none;
+    height: 44px;
+    width: 112px;
+    border-radius: 10px;
+}
+
+.components { 
+    justify-content: space-between;
+    margin-right: 200px;
+}
+
+.btn { 
+    display: flex;
+    justify-content: center;
+}
+
+.btn button { 
+    width: 255px;
+    height: 59px;
+    background-color: #175CAE;
+    border-radius: 40px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+    color: white;
+    border: none;
+
+}
+
+.footer { 
+    margin-top: 148px;
+    background-color: #175CAE;
+    width: 100%;
+    height: 100%;
+}
+
+
+a { 
+    text-decoration: none;
+}

@@ -1,0 +1,211 @@
+.header { 
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #175CAE;
+    align-items: center;
+}
+
+.header h2 { 
+    color: #175CAE;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+}
+
+.header h3 { 
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    color: #0E3C73;
+    background-image: url(images/folder.svg);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-position: left;
+}
+
+.header h4 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    color: #0E3C73;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+}
+.service-name { 
+    margin-right: 50px;
+    font-weight: 300;
+    color: #175CAE;
+}
+
+.burger { 
+    background: none;
+    border: none;
+    color: #175CAE;
+}
+
+.main-btns {
+    margin-top: 52px;
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.register { 
+    font-size: 32px;
+    width: 275px;
+    height: 84px;
+    background-color: #175CAE;
+    border: none;
+    border-radius: 40px;
+    line-height: 0px;
+}
+
+.enter { 
+    font-size: 32px;
+    height: 84px;
+    width: 217px;
+    background-color: #175CAE;
+    border: none;
+    border-radius: 40px;
+    line-height: 0px;
+    color: white;
+}
+
+.container { 
+    margin-left: 37.5px;
+    display: flex;
+    padding: 24px;
+}
+
+p { 
+    margin: 0;
+    margin-left: 24px;
+}
+
+.instruments { 
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.instr1, .instr2, .instr3 { 
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+}
+
+.edit { 
+    background-image: url(images/edit.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+    font-size: 20px;
+    margin-left: 24px;
+}
+
+.delete { 
+    background-image: url(images/basket.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+    font-size: 20px;
+    margin-left: 24px;
+}
+
+.instruments input { 
+    width: 80%;
+    height: 78px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+.name, .price, .description { 
+    align-items: center;
+    padding-top: 46px;
+    display: flex;
+    text-align: center;
+}
+
+.add-instruments { 
+    width: 50%;
+    margin-top: 40px;
+    height: 621px;
+    border-radius: 50px;
+    padding: 28px 40px 28px 40px;
+    background: rgb(224,232,248);
+    background: linear-gradient(180deg, rgba(224,232,248,1) 0%, rgba(206,216,237,1) 50%, rgba(23,92,174,1) 100%);
+}
+
+.add-instruments input { 
+    border: 3px solid;
+    border-radius: 40px;
+    height: 68px;
+}
+
+.placeholder::placeholder { 
+    padding-left: 64px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+}
+
+.name input{
+    max-width: 360px;
+    width: 100%; 
+    margin-left: 21px;
+}
+
+.description input{ 
+    max-width: 360px;
+    width: 100%; 
+    margin-left: 21px;
+}
+
+.price input{ 
+    max-width: 238px;
+    width: 100%; 
+    margin-left: 8px;
+}
+
+.footer { 
+    margin-top: 148px;
+    background-color: #175CAE;
+    width: 100%;
+    height: 100%;
+}
+
+.register h4 { 
+    color: white;
+    font-weight: 400;
+}
+
+a { 
+    text-decoration: none;
+}
+
+.exit { 
+    margin-left: 10px;
+}
+
+.forgot { 
+    margin-left: 58px;
+    margin-top: 36px;
+}
